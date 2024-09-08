@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fun Tic-Tac-Toe for Kids!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Fun Tic-Tac-Toe!</h1>
+    <div id="playerForm">
+        <input type="text" id="player1" placeholder="Player 1 Name (X)">
+        <input type="text" id="player2" placeholder="Player 2 Name (O)">
+        <button id="startButton" onclick="startGame()">Start Game</button>
+    </div>
+    <div id="gameContainer">
+        <div id="currentPlayerDisplay"></div>
+        <div class="board" id="board"></div>
+    </div>
+    <div id="winnerMessage"></div>
+    <canvas id="confetti"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
